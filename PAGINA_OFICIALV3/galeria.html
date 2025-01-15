@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner:wght@400..700&family=Jacquard+12&family=Madimi+One&family=Poetsen+One&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Sixtyfour&family=Tilt+Neon&display=swap" rel="stylesheet">
+   
+    <title>RebeQueen08</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+
+</head>
+<body>
+    <nav id="main-nav"  class="nav">
+        <div id="toggle-menu" class="toggle-menu">
+           <i class="fas fa-bars toggle-menu_icon"></i>
+        </div>
+        <ul id="main-menu" class="main-menu">
+           <li  type="none"  class="main-menu_item">
+              <a href="index.html" class="main-menu_link">
+               <i class="fas fa-house-user  main-menu_icon"></i>Inicio</a>
+           
+           </li>
+           <li type="none" class="main-menu_item">
+              <a href="#" class="main-menu_link">
+               <i class="fas fa-hand-holding-usd main-menu_icon"></i>Donaciones</a>
+           </li>
+           <li type="none"class="main-menu_item">
+              <a href="#" class="main-menu_link">
+                 <i class="fas fa-chess main-menu_icon"></i>Mis partidas</a>
+                
+           </li>
+           <li type="none" class="main-menu_item">
+              <a href="galeria.html" class="main-menu_link">
+                 <i class="fas fa-star main-menu_icon"></i>Galeria</a>
+           </li>
+           <li type="none" class="main-menu_item">
+              <a href="#" class="main-menu_link">
+                 <i class="fas fa-star main-menu_icon"></i>Participación en Medios</a>
+           </li>
+        </ul>
+      </nav>
+
+   <main class="main">
+       <h1>GALERIA DE EVENTOS</h1>
+        <div class="full-img" id="full-img-box">
+            <img src="images/galeria/galeria1.jpeg" id="fullimg" alt="">
+            <span onclick="closeImg()">X</span>
+        </div>
+            <h2 class="titulo-galeria"> Campeonato Nacional e Internacional Chihuahua 2022</h2>
+                <div class="main-galeria">
+                    <div class="galeria-3" >
+                        <img  class="fila1" src="images/galeria/galeria1.jpeg" onclick="openFullImg(this.src)" alt="foto1">
+                    </div>
+                    <div class="galeria-3" >
+                        <img id="ventana1" class="fila1" src="images/galeria/galeria1.jpeg" onclick="openFullImg(this.src)" alt="foto1">
+                    </div>
+                    <div class="galeria-3" >
+                        <img class="fila1" src="images/galeria/galeria1.jpeg" onclick="openFullImg(this.src)" alt="foto1">
+                    </div>
+      <!--agrega    r las fotos que quieran-->
+                    <div class="galeria-3" >
+                        <img  class="fila1" src="images/galeria/galeria1.jpeg" alt="foto1">
+                    </div>
+                    <div class="galeria-3" >
+                        <img class="fila1" src="images/galeria/galeria1.jpeg" alt="foto1">
+                    </div>
+                    <div class="galeria-3" >
+                        <img class="fila1" src="images/galeria/galeria1.jpeg" alt="foto1">
+                    </div>
+                 </div>
+        
+                 <!--por si queremos colocar mas galeria-->
+
+                 <h2 class="titulo-galeria"> "Campeonato Nacional e Internacional Queretaro 2023"</h2>
+                 <div class="main-galeria">
+                     <div class="galeria-3" >
+                         <img  class="fila1" src="images/galeria/galeria1.jpeg" alt="foto1">
+                     </div>
+                     <div class="galeria-3" >
+                         <img class="fila1" src="images/galeria/galeria1.jpeg" alt="foto1">
+                     </div>
+                     <div class="galeria-3" >
+                         <img class="fila1" src="images/galeria/galeria1.jpeg" alt="foto1">
+                     </div>
+                  <!--agregar las fotos que quieran-->
+                     <div class="galeria-3" >
+                         <img  class="fila1" src="images/galeria/galeria1.jpeg" alt="foto1">
+                     </div>
+                     <div class="galeria-3" >
+                         <img class="fila1" src="images/galeria/galeria1.jpeg" alt="foto1">
+                     </div>
+                  </div>
+
+       <div class="contenedor">
+           <div class="row-3 text-center">
+               <a class="text-center"  href="https://www.youtube.com/watch?v=z_KA-xVOiIc" target="_blank" >
+                   <i class="fab fa-brands fa-youtube"></i>
+               </a>
+           </div>
+           <div class="row-3 text-center">
+               <a class="text-center" href="   " target="_blank">
+                   <i class="fab fa-brands fa-twitter"></i>
+               </a>
+           </div>
+           <div class="row-3 text-center">
+               <a  class="text-center" target="_blank">
+                   <i class="fab fa-brands fa-instagram"></i>
+               </a>
+           </div>
+       </div>
+   </main>
+   <div class="derechos">
+       <p>Todos los derechos reservados 2024</p>
+   </div>
+   <script src="js/main.js"></script>
+</body>
+</html>
+
